@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "vite"
+  },
+  "dependencies": {
+    "browserprint-es": "^0.0.4",
+    "vite": "^5.1.5"
+  }
+}
