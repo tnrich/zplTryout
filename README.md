@@ -1,4 +1,4 @@
-Instructions: 
+## Instructions: 
 1. Clone this repository
 
 2. Start up the Browser Print app locally
