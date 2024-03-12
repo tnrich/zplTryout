@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "vite"
+    "start": "vite"
   },
   "dependencies": {
     "browserprint-es": "^0.0.4",
