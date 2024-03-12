@@ -1,10 +1,10 @@
 import BrowserPrint, { Printer } from "browserprint-es";
 
+console.log(`BrowserPrint:`, BrowserPrint);
 (async () => {
   try {
     console.log(`getting printer`)
     const device = await BrowserPrint.getDefaultDeviceAsync("printer");
-    // const device = await BrowserPrint.getLocalDevicesAsync("printer");
     console.log(`device1:`, device);
     if (!device) {
       return;
