@@ -27,7 +27,24 @@ document.getElementById("print").addEventListener("click", async () => {
     console.log(`status:`, status);
 
     console.log(`try sending over some zpl`)
-    const res = await device.sendAsync("weee") //real zpl here
+    const res = await device.sendAsync(`^XA
+~SD30
+^CF0,15
+^FO40,10
+^FDTest - Plate_01^FS
+^FO40,30
+^FD6/10/2023^FS
+^CF0,15
+^FO195,10
+^FDNon - GMO^FS
+^FO195,30
+^FDUser01^FS
+^CF0,15
+^FO335,30
+^CF0,15
+^BY1,3,12^BC,,,Y,N
+^FD000_CPK_001A^FS
+^XZ`) 
     console.log(`res:`,res)
    
   } catch (error) {
